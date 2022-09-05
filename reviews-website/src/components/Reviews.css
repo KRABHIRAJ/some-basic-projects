@@ -1,0 +1,66 @@
+.reviews{
+    background-color: white;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.profile__img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+
+.reviews__name{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.reviews__job{
+    color: #72A6E9;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reviews__description{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(82, 82, 82);
+}
+
+.icon{
+    color: #9ED4FA;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition:all 250ms !important;
+}
+
+.icon:hover{
+    color: #72A6E9;
+}
+
+.surprise__icon{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #EBF7FF;
+    color: #72A6E9;
+    padding: 5px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.surprise__icon:hover{
+    background-color: #72A6E9;
+    color: black;
+}
