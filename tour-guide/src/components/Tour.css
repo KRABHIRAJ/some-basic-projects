@@ -1,0 +1,71 @@
+.tour{
+    background-color: white;
+    max-width: 650px;
+    border-radius: 6px;
+    margin: 60px;
+}
+.tour__image{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: 20px;
+
+}
+
+.tour__details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.tour__name{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.tour__price{
+    font-size: 16px;
+    color: #6DA6E9;
+    background-color: #EBF7FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tour__info{
+    padding: 10px 30px;
+}
+
+.tour__button{
+    margin: auto;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #BB2525;
+    color: #BB2525;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.tour__button:hover{
+    background-color: #BB2525;
+    color: #fff;
+}
+
+.tourButton__div{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.read__button{
+    color: #6DA6E9;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}

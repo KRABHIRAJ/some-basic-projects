@@ -1,0 +1,22 @@
+.home{
+    background-color: #F1F5F8;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #102A42;
+    padding-top: 100px;
+}
+
+.heading__border{
+    height: 4px;
+    width: 100px;
+    background-color: #49A6E9;
+    margin-top: 10px;
+}
+
+.home::-webkit-scrollbar{
+    display: none;
+}
