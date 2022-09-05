@@ -1,0 +1,25 @@
+.category{
+    display: flex;
+}
+
+.category__btn{
+    margin: 10px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #C59D5F;
+    transition: all 400ms;
+    padding: 8px 20px;
+    border-radius: 5px;
+    
+}
+
+.category__btn:hover{
+    background-color: #C59D5F;
+    color: white;
+
+}
