@@ -1,0 +1,55 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  margin-bottom: 20px;
+  color: rgb(75, 73, 73);
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.lorem__ipsum{
+  margin: 80px;
+  margin-top: 40px;
+  color: #617D98;
+}
+
+.loremIpsum__text{
+  margin: 30px 0;
+}
+
+.app__form > span{
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.app__form > input{
+  border: none;
+  padding: 10px;
+  width: 40px;
+  margin-right:15px;
+  outline: none;
+}
+
+.app__form > button{
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #49A6E9;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.app__form > button:hover{
+  background-color: #1194f1;
+
+}
