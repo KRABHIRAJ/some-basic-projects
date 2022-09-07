@@ -1,0 +1,36 @@
+.singleColor{
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 150px;
+    max-height: 200px;
+
+}
+
+.weight{
+    top: 8px;
+    left: 15px;
+    position: absolute;
+}
+.copied__hexCode{
+    top: 70px;
+    left: 70px;
+    position: absolute;
+    color: gray;
+    text-transform: uppercase;
+}
+.hexcode{
+    top: 30px;
+    left: 15px;
+    position: absolute;
+}
+.color__div{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.whiteColor{
+    color: white;
+}
