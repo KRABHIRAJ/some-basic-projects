@@ -1,0 +1,30 @@
+.item{
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 350ms;
+    align-items: center;
+
+}
+.item__item{
+    padding: 5px 15px;
+    letter-spacing: 0.5px;
+
+}
+.item:hover{
+    background-color: #f1f5f8;
+    border-radius: 7px;
+}
+
+.create__icon{
+    margin-right: 10px;
+    font-size: 18px !important;
+    color: green;
+    cursor: pointer;
+}
+
+.delete__icon{
+    font-size: 18px !important;
+    color: red;
+    cursor: pointer;
+}
