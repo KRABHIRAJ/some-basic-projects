@@ -5,12 +5,15 @@
     background-color: gray;
     opacity: 0.8;
     height: 100vh;
+    width: 100vw;
     z-index: 100;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    transition: all 400ms;
+
 }
 
 .modal__hide{
