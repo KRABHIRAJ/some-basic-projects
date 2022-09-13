@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Modal from "./components/Modal";
 function App() {
   const [openSidebar, setOpenSidebar] = useState(false);
-  const [openModal, setOpenModal] = useState(true);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div className="app">
