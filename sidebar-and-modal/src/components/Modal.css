@@ -1,0 +1,38 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    opacity: 0.8;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.modal__hide{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.modal__body{
+    background-color: white;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 400ms;
+}
+
+.hide__modalBody{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+
+}
